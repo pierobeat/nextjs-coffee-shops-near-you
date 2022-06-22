@@ -1,0 +1,4 @@
+DIFFERENCE BETWEEN _APP AND _DOCUMENT (WHY WE USE _DOCUMENT) :
+1.) _app.js will add stuff to the body in html. It's not responsible for head and html document.
+2.) _app component is used to initialize pages
+3.) _document used to update either <html>, <head>, or <body>
